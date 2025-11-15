@@ -1,0 +1,34 @@
+{
+  "render": {
+    "enable_fp16": false,
+    "enable_tensorrt": false,
+    "batch_size": 1,
+    "max_yaw_deg": 20.0,
+    "max_pitch_deg": 15.0,
+    "max_roll_deg": 10.0,
+    "jaw_amp_factor": 0.02,
+    "lip_source_ratio": 1.0,
+    "lip_min_threshold": -0.8,
+    "lip_ratio_multiplier": 2.0
+  },
+  "audio2motion": {
+    "target_fps": 25.0,
+    "max_queue_size": 100,
+    "look_ahead_ms": 100
+  },
+  "blink": {
+    "enabled": true,
+    "min_interval": 2.0,
+    "max_interval": 5.0,
+    "duration": 0.15,
+    "eye_close_ratio": 0.8
+  },
+  "sync": {
+    "use_pts": true,
+    "pts_tolerance_ms": 50,
+    "drift_correction_threshold_ms": 200
+  },
+  "verbose": false,
+  "show_fps": true,
+  "warn_on_slow_frame": true
+}

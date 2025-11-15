@@ -1,0 +1,20 @@
+# 核心依赖
+numpy>=1.24.0
+opencv-python>=4.8.0
+
+# PyTorch (根据系统选择合适的版本)
+# GPU 版本 (CUDA 11.8):
+torch>=2.0.0
+torchvision>=0.15.0
+
+# LivePortrait 相关依赖
+# 注意: LivePortrait 可能有额外依赖，请参考 engine/third_party/LivePortrait/requirements.txt
+
+# 可选依赖
+# 用于性能分析
+# psutil>=5.9.0
+
+# 用于音频处理 (后续 Audio2Motion 需要)
+# librosa>=0.10.0
+# soundfile>=0.12.0
+# scipy>=1.11.0

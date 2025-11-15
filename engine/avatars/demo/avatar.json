@@ -1,0 +1,11 @@
+{
+  "name": "demo_avatar",
+  "resolution": 256,
+  "renderer_model": "liveportrait_stub_v1",
+  "source_image": "../../../Duix-Mobile/res/avatar/Leo.jpg",
+  "background": {
+    "type": "solid",
+    "color": [0, 0, 0]
+  }
+}
+

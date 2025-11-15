@@ -16,6 +16,8 @@
 
 ### 1. 安装依赖
 
+#### Python 依赖
+
 ```bash
 cd engine
 pip install -r requirements.txt
@@ -26,6 +28,20 @@ pip install -r requirements.txt
 pip install mediapipe  # 用于人脸关键点提取
 pip install pyaudio    # 用于麦克风输入
 ```
+
+#### 第三方库
+
+**LivePortrait**（必需）:
+```bash
+cd engine/third_party/
+git clone https://github.com/KwaiVGI/LivePortrait.git
+cd LivePortrait
+# 按照 LivePortrait 官方文档下载模型权重
+```
+
+详细说明请参考：[`docs/third_party_setup.md`](docs/third_party_setup.md)
+
+#### 系统工具
 
 确保已安装 `ffmpeg`:
 ```bash
